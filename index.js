@@ -49,7 +49,6 @@ module.exports = function (options) {
  * @providesModule ${filename}
  */
 import ${objectName} from '${moduleName}'
-if(!EStyleSheet.builded){EStyleSheet.build({})}
 export default ${objectName}.create(`;
 
         suffix = ")";
