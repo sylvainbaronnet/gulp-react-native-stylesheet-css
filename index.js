@@ -45,9 +45,7 @@ module.exports = function (options) {
 
         var filename = path.basename(file.path)
 
-        prefix = `/**
- * @providesModule ${filename}
- */
+        prefix = `/** @providesModule ${filename} */
 import ${objectName} from '${moduleName}'
 export default ${objectName}.create(`;
 
